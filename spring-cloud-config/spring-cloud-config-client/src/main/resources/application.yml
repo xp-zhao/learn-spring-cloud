@@ -3,3 +3,8 @@ spring:
     name: spring-cloud-config-client
 server:
   port: 8002
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
