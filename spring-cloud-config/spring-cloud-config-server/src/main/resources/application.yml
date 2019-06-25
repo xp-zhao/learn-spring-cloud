@@ -7,6 +7,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xp-zhao/learn-spring-cloud
+          uri: https://github.com/xp-zhao/learn-spring-cloud # git 仓库地址
           search-paths: spring-cloud-config/config-repo
           default-label: config
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/   # 注册中心eurka地址
