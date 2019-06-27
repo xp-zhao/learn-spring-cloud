@@ -1,2 +1,10 @@
 cloud:
   hello: hello this is dev update
+person:
+  name: xp
+  id: 24
+  list:
+    - a
+    - b
+    - c
+  map: {k1: value1, k2: value2}
