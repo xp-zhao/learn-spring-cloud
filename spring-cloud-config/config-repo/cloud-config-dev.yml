@@ -6,5 +6,5 @@ person:
   list:
     - a
     - b
-    - c
+    - d
   map: {k1: value1, k2: value2}
