@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: cloud_route # 自定义路由，保持唯一
+          uri: https://github.com/ # 目标服务地址
+          predicates: # 路由条件 （各个条件可以组合）
+#            - Path=/spring-cloud # 通过访问地址匹配
+#            - Before=2018-01-20T06:06:06+08:00[Asia/Shanghai] # 通过请求时间匹配 (Before-之前，After-之后，Between-时间段内)
+#            - Cookie=xp # 通过 cookie 匹配
+#            - Header=X-Request-Id # 通过 Header 匹配
+#            - Host=**.github.com # 通过 Host 匹配
+#            - Method=GET # 通过请求方式匹配(POST、GET、PUT、DELETE等)
+#            - Query=smile # 通过请求参数匹配
+#            - RemoteAddr=127.0.0.1/24 # 通过 ip 地址匹配
