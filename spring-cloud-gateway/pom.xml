@@ -26,6 +26,12 @@
       <artifactId>spring-cloud-starter-gateway</artifactId>
     </dependency>
 
+    <!--  网关注册到注册中心  -->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
