@@ -5,3 +5,4 @@
 - [spring-cloud-producer](https://github.com/xp-zhao/learn-spring-cloud/tree/master/spring-cloud-producer): spring cloud 生产者示例
 - [spring-cloud-eureka](https://github.com/xp-zhao/learn-spring-cloud/tree/master/spring-cloud-eureka): spring cloud eureka服务示例
 - [spring-cloud-zuul](https://github.com/xp-zhao/learn-spring-cloud/tree/master/spring-cloud-zuul): spring cloud zuul网关示例
+- [spring-cloud-hystrix](https://github.com/xp-zhao/learn-spring-cloud/tree/master/spring-cloud-hystrix): spring cloud hystrix线程池隔离示例
