@@ -12,5 +12,4 @@ public class FeignServerApplicationTests {
     @Test
     public void contextLoads() {
     }
-
 }

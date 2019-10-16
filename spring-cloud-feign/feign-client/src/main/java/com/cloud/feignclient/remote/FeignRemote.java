@@ -1,11 +1,14 @@
 package com.cloud.feignclient.remote;
 
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PostMapping;
 
-@FeignClient(name = "feign", url = "http://localhost:8015")
+@FeignClient(name = "feign", url = "${remote.url}")
 public interface FeignRemote {
-    @PostMapping("/feignServer/post")
-    void web();
+
+  /**
+   * 请求示例
+   */
+  @PostMapping(value = "/feignServer/post", headers = {"reqKey=${remote.url}"})
+  void web();
 }

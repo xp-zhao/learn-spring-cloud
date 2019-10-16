@@ -9,11 +9,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class RemoteTest {
-    @Autowired
-    private FeignRemote feignRemote;
 
-    @Test
-    public void testWeb(){
-        feignRemote.web();
-    }
+  @Autowired
+  private FeignRemote feignRemote;
+
+  @Test
+  public void testWeb() {
+    feignRemote.web();
+  }
 }
