@@ -1,0 +1,13 @@
+server:
+  port: 8003
+eureka:
+  instance:
+    hostname: node3
+  client:
+    serviceUrl:
+      defaultZone: http://node1:8001/eureka,http://node2:8002/eureka
+    register-with-eureka: true
+    fetch-registry: true
+spring:
+  application:
+    name: eureka-server
